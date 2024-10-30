@@ -15,18 +15,17 @@ const meuGrafico = new Chart (grafico, {
             "LINE"
         ],
         datasets : [{
-            data [
+            data: [
                 16.5,
                 16.1,
                 12.8,
-                "rgb( 175, 238, 238)",
                 12.8,
                 7.4,
                 6.6,
                 3.2,
                 2.4,
                 2.3,
-                1.7,
+                1.7
             ],
             backgroundColor: [
                 "rgb( 255, 250, 205)",
@@ -39,13 +38,9 @@ const meuGrafico = new Chart (grafico, {
                 "rgb( 230, 230, 250)",
                 "rgb( 216, 191, 216)",
                 "rgb( 175, 238, 238)",    
-            ]
-
+            ],
         }
-
         ]
     }
-
 }
-
-)
+);
